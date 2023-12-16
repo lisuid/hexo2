@@ -156,8 +156,8 @@ aside:
       img: https://s3.qjqq.cn/3/64de148060f7b.webp!color # 头像
       js: https://cdn3.codesign.qq.com/icons/XgRxnjPG4VZLmqr/latest/iconfont.js # 自定义图标js（用于显示带颜色的状态表情）
       state: "#sco-smile" # 状态表情（使用symbol）
-    content: 分享自己对编程的<b>热爱</b>，对美好生活的<b>向往</b>，对知识海洋<b>探索历程</b>。 # 文案1
-    content2: 相信你可以在这里找到对你有用的知识和教程。 # 文案2
+    content: <b>生而无畏</b>。 # 文案1
+    content2: 战至终章 # 文案2
     # 个人信息卡片底部的小图标，按照例子填写
     information:
       Github:
