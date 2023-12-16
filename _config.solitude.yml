@@ -4,7 +4,7 @@ site:
     class:  text #i_class/text/img
     custom: lisui #自定义内容 例如：scoicon sco-logo / 王卓Sco / https://p.sondy.top/logo.png
   siteIcon: https://bu.dusays.com/2023/11/08/654af68b25bb8.jpg # 网页icon
-  icon: https://s3.qjqq.cn/3/64de148060f7b.webp!color # 页脚的icon、加载动画默认的icon
+  icon: https://bu.dusays.com/2023/11/08/654af68b25bb8.jpg # 页脚的icon、加载动画默认的icon
   icp: 粤ICP备2023117582号 # ICP 例如：湘ICP备2023015327号
 
 
@@ -18,44 +18,49 @@ nav:
           Solitude:
             icon: https://bu.dusays.com/2023/11/08/654af68b25bb8.jpg
             url: https://github.com/DuoSco/Hexo-Theme-solitude
+
   # 导航栏内容
   menu:
-    文库:
-      url: false
-      child:
-        文章列表:
-          url: /archives/
-          icon: ri-archive-fill
-        全部分类:
-          url: /categories/
-          icon: ri-send-backward
-        全部标签:
-          url: /tags/
-          icon: ri-price-tag-3-fill
-    友链:
-      url: false
-      child:
-        友情链接:
-          url: /links/
-          icon: ri-links-line
-        宝藏博主:
-          url: javascript:travelling()
-          icon: ri-gift-fill
-          我的:
-            url: false
-            child:
-              装备:
-                url: /equipment/
-                icon: ri-macbook-fill
-              工具箱:
-                url: /tlink/
-                icon: ri-tools-fill
-    关于:
-      url: false
-      child:
-        关于本站:
-          url: /about/
-          icon: ri-user-smile-fill
+      文库:
+        url: false
+        child:
+          文章列表:
+            url: /archives/
+            icon: scoicon sco-folder-fill
+          全部分类:
+            url: /categories/
+            icon: scoicon sco-checkbox-multiple-blank-fill
+          全部标签:
+            url: /tags/
+            icon: scoicon sco-price-tag-fill
+      友链:
+        url: false
+        child:
+#          鱼塘:
+#            url: /moments/
+#            icon: scoicon sco-wifi-fill
+          友情链接:
+            url: /links/
+            icon: scoicon sco-group-fill
+          宝藏博主:
+            url: javascript:travelling()
+            icon: scoicon sco-gift-fill
+#      我的:
+#        url: false
+#        child:
+#          装备:
+#            url: /equipment/
+#            icon: scoicon sco-laptop-line
+#          工具箱:
+#            url: /tlink/
+#            icon: scoicon sco-tools-fill
+      关于:
+        url: false
+        child:
+          关于本站:
+            url: /about/
+            icon: scoicon sco-contacts-fill
+
 
   # 导航栏右侧快捷菜单 (true,false)
   right: # @todo 允许用户自定义
@@ -65,7 +70,6 @@ nav:
 
 # 首页顶部样式
 hometop:
-  bbtime: true # 即刻顶部是否开启
   banner:
     enable: true # 是否打开顶部banner
     title: 生而无畏<br>战至终章 # 左上角显示文字
@@ -121,7 +125,7 @@ hometop:
       icon: scoicon sco-book-mark-fill
       url: /tags/教程/
 
-  # 右侧置顶列表（在文章的front matter中添加“recommend: true”）
+   # 右侧置顶列表（在文章的front matter中添加“recommend: true”）
   recommendList:
     sup: 理随 # 左上角显示文字
     title: 生而无畏，战至终章 # 左下角大字
@@ -158,7 +162,7 @@ aside:
     information:
       Github:
         icon: scoicon sco-github-line
-        url: https://github.com/lisuid
+        url: https://github.com/DuoSco/Hexo-Theme-slitude
       Bilibili:
         icon: scoicon sco-bilibili-line
         url: https://space.bilibili.com/1329819902
@@ -175,7 +179,7 @@ aside:
     key: DE7BZ-HAMKA-E2RKJ-CTHJH-2KBAQ-GGBSC #腾讯key
     longitude: 112.8455033596802 # 经度
     Latitude: 26.430308353457896 # 纬度
-  # 那年今日
+   # 那年今日
   history:
     enable: true
     title: #【选填】留空将默认显示为：那年今日
@@ -192,7 +196,6 @@ aside:
     list: # 高亮显示标签列表
       - '知识'
       - '教程'
-
   # 侧边栏归档
   archive:
     enable: true # 是否显示
@@ -261,12 +264,14 @@ page:
   tags: true # 标签页
   categories: true # 分类页
   default: # 默认值
-    cover: /img/default.png # 默认图片
+    cover:
+      - /img/default.png # 默认图片
 
 # 文章页默认设置
 post:
   default:
-    cover: /img/default.png
+    cover:
+      - /img/default.png # 默认图片
     locate: 东莞
     copyright:
       enable: true
@@ -299,7 +304,7 @@ about:
   enable: true # 是否开启
   echarts: # 文章统计
     enable: true # 是否开启
-    startDate: "2023-04-20 00:00:00" # 统计开始日期 格式：yyyy-MM-dd hh-mm-ss
+    startDate: "2023-06-12 00:00:00" # 统计开始日期 格式：yyyy-MM-dd hh-mm-ss
     tagLength: 10 # 标签显示数量
     categoryParent: true # 显示父分类
 
@@ -336,6 +341,19 @@ loading:
   fullpage: true # 全局加载动画
   pace: true # 顶部加载动画
 
+# 用于自定义的主题颜色
+# 注意：颜色值必须使用引号，如“#000”，否则可能会导致错误！
+# --------------------------------------
+theme_color:
+  dark: "#f2b94b" # 暗色模式
+  dark_op: '#f2b94b23' # 暗色模式透明
+  dark_op_deep: '#f2b94b4d' # 暗色模式透明深色
+  dark_none: '#f2b94b00' # 暗色模式透明无色
+  light: "#bdbdf0" # 亮色模式
+  light_op: '#4259ef23' # 亮色模式透明
+  light_op_deep: '#eccec5' # 亮色模式透明深色
+  light_none: '#4259ef01' # 亮色模式透明无色
+
 # 第三方设置
 thirdparty:
   wordcount: true # 字数统计
@@ -355,9 +373,9 @@ thirdparty:
       CDN:
 
   aplayer: # 播放器
-    enable: false
+    enable: true
     server: netease # netease, tencent, kugou, xiami, baidu
-    id: 8407304077 # 歌单ID
+    id: 1994908354 # 歌单ID
     api: "https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r" #自定义api
   #中控台拓展
   consolePlus: true
@@ -394,15 +412,19 @@ thirdparty:
 # 评论
 comment:
   enable: true # 是否开启评论
-  type: 'twikoo' # valine, twikoo
+  type: twikoo # valine, twikoo
+  lazyload: true # 是否开启懒加载
+  count: true  # 是否显示评论数
   # 评论系统
   twikoo:
     envId: https://twikoo.lisui.top/
     lang: 'zh-CN' # 语言
     accessToken: 18a3dc6f0000431dab4b26ab72459b43 # accessToken
+  waline:
+    envId:  # url: https://waline.js.org/
+    pageview: false # 是否开启页面访问量统计
+    option: # waline配置项
 
-# 插入代码到头部 </head> 之前 和 底部 </body> 之前
-# 插入额外代码 如：统计，广告等
 extends:
   head: 
     - <link rel="stylesheet" href="/css/custom.css"> #在head中插入
@@ -413,11 +435,10 @@ extends:
     - <script async src="/js/fps.js"></script> # 帧率检测
     - <canvas id="universe"></canvas> #星空背景
     - <script defer src="/js/universe.js"></script> # 星空背景# 在body中插入
-    
 
 # 文章底部推荐文章
 related_post:
-  enable: true
+  enable: false
   limit: 2 # 推荐文章数量
   date_type: created # 根据创建日期（created）或是更新日期（updated）
 
@@ -490,11 +511,14 @@ cdn:
     scoicon: https://cdn3.codesign.qq.com/icons/7pOrz0WXB5ZWJPX/latest/iconfont.css
     aplayercss: https://cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlayer.min.css
     swipercss: https://cdn.bootcdn.net/ajax/libs/Swiper/9.2.4/swiper-bundle.min.css
-    twikoojs: https://cdn.bootcdn.net/ajax/libs/twikoo/1.6.25/twikoo.all.min.js
+    twikoojs: https://cdn.bootcdn.net/ajax/libs/twikoo/1.6.20/twikoo.all.min.js
     instantsearch: https://cdn.bootcdn.net/ajax/libs/instantsearch.js/4.9.1/instantsearch.production.min.js
     algoliajs: https://cdn.bootcdn.net/ajax/libs/algoliasearch/4.9.3/algoliasearch-lite.umd.min.js
     pacejs: https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js
     echartsjs: https://cdn.bootcdn.net/ajax/libs/echarts/5.4.2/echarts.min.js
+    lunrjs: https://cdn.bootcdn.net/ajax/libs/lunr.js/2.3.9/lunr.min.js
+    walinecss: https://cdn.bootcdn.net/ajax/libs/waline/2.15.7/waline.min.css
+    walinejs: https://cdn.bootcdn.net/ajax/libs/waline/2.15.7/waline.min.js
   body:
     viewimagejs: /lib/view-image.min.js
     waterfalljs: /lib/waterfall.min.js

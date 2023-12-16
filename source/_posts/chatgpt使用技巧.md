@@ -4,8 +4,8 @@ tags:
   - chatgpt
   - 知识
 categories:
-  - chatgpt
-  - AI
+  - [chatgpt]
+  - [AI]
 cover: 'https://s3.qjqq.cn/3/64dcc2a53c9ed.webp!color'
 description: 本文描述chatgpt的使用技巧和帮助。
 abbrlink: efe4d5b4

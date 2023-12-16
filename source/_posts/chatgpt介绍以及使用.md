@@ -2,7 +2,7 @@
 title: chatgpt介绍以及使用
 tags: chatgpt
 categories:
-  - chatgpt
+  - [chatgpt]
   - AI
 cover: 'https://s3.qjqq.cn/3/64dcc2f10b662.webp!color'
 description: 本文讲解chatgpt的介绍以及使用
