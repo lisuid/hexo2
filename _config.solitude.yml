@@ -3,7 +3,7 @@ site:
   name: # 左上角显示内容
     class:  text #i_class/text/img
     custom: lisui #自定义内容 例如：scoicon sco-logo / 王卓Sco / https://p.sondy.top/logo.png
-  siteIcon: https://bu.dusays.com/2023/11/08/654af68b25bb8.jpg # 网页icon
+  siteIcon: https://s3.qjqq.cn/3/64de148060f7b.webp!color # 网页icon
   icon: https://bu.dusays.com/2023/11/08/654af68b25bb8.jpg # 页脚的icon、加载动画默认的icon
   icp: 粤ICP备2023117582号 # ICP 例如：湘ICP备2023015327号
 
@@ -429,7 +429,6 @@ extends:
   head: 
     - <link rel="stylesheet" href="/css/custom.css"> #在head中插入
     - <span id="fps"></span> # 帧率检测
-    - <link rel="stylesheet" href="/css/home.css"> # 首页文章卡片擦亮效果
     - <link rel="stylesheet" href="/css/universe.css"> #星空背景
   body: 
     - <script async src="/js/fps.js"></script> # 帧率检测
