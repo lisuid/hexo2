@@ -23,9 +23,9 @@ links:
         vip: true
       - name: 王卓Sco
         link: https://blog.sondy.top/
-        avatar: https://npm.elemecdn.com/wzheo-absolute@1.0.0/image/avatar/avatar.png	# 显示头像
-        descr: 宁静致远，热爱生活。	# 友链简介
-        tag: 博主·	# 左上角提示信息
+        avatar: https://npm.elemecdn.com/wzheo-absolute@1.0.0/image/avatar/avatar.png
+        descr: 宁静致远，热爱生活。
+        tag: 博主
 		    vip: true
 
       - name: 糖丸
