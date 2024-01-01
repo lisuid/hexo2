@@ -510,7 +510,7 @@ cdn:
     scoicon: https://cdn3.codesign.qq.com/icons/7pOrz0WXB5ZWJPX/latest/iconfont.css
     aplayercss: https://cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlayer.min.css
     swipercss: https://cdn.bootcdn.net/ajax/libs/Swiper/9.2.4/swiper-bundle.min.css
-    twikoojs: https://cdn.bootcdn.net/ajax/libs/twikoo/1.6.20/twikoo.all.min.js
+    twikoojs: https://cdn.bootcdn.net/ajax/libs/twikoo/1.6.29/twikoo.all.min.js
     instantsearch: https://cdn.bootcdn.net/ajax/libs/instantsearch.js/4.9.1/instantsearch.production.min.js
     algoliajs: https://cdn.bootcdn.net/ajax/libs/algoliasearch/4.9.3/algoliasearch-lite.umd.min.js
     pacejs: https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js
