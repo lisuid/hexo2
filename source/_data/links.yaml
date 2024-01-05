@@ -42,7 +42,7 @@ links:
         vip: true
       - name: 爱吃肉的猫
         link: https://meuicat.com/
-        avatar: https://s1.ax1x.com/2023/05/26/p9qChjI.jpg
+        avatar: https://s3.qjqq.cn/3/6597fa6da06a7.webp!color
         descr: 有肉有猫有生活.
         vip: true
         tag: 技术
@@ -81,11 +81,6 @@ links:
         descr: 分享网络安全与科技生活
         tag: 网络安全
         vip: true
-      - name: Tianli
-        link: https://tianli-blog.club/ 
-        icon: https://q2.qlogo.cn/headimg_dl?dst_uin=507249007&spec=640
-        desc: "自知之明是最可贵的知识！"
-        tag: Tianli
         vip: true
       - name: 轻笑Chuckle
         link: https://www.qcqx.cn
@@ -119,16 +114,21 @@ links:
         vip: true
       - name: 小染笔记
         link: https://xrr.org.cn/
-        avatar: https://cdn.xrr.org.cn/img/tx.png
+        avatar: https://s3.qjqq.cn/3/6597fae83c03d.webp!color
         descr: 不必借光而行，你我皆是星辰
         vip: true
         tag: 初七云
       - name: 老怀表
-        link: https://host223.com/
-        avatar: https://namemach.top/img/yz.png
+        link: https://7t7t.top/
+        avatar: https://s3.qjqq.cn/3/6597fa06f3f1a.webp!color
         descr: 老怀表
         vip: true
         tag: 技术
+      - name: 冰火之砺
+        link: https://blog.marice.top/
+        avatar: https://bu.dusays.com/2023/11/29/6567122d3f4a6.jpg
+        descr: 水穷暖春云起处
+        vip: true
 
       
 
@@ -136,11 +136,6 @@ links:
     descr: 我的小伙伴 # 分类简介
     type: item	# 显示方式，有两种 card / item
     link_list:
-      - name: 余墨白
-        link: https://blog.yumobai.cn/
-        descr: 喜欢捣鼓的博主
-        avatar: https://img.yumobai.cn//yumobai/img%E5%A4%B4%E5%83%8F5.ico
-        vip: true
       - name: Qing
         link: https://blog.wuyuxi.cn/
         avatar: https://cdnjson.com/images/2023/06/04/avatar.png
@@ -151,17 +146,17 @@ links:
         link: https://byer.top/
         descr: 我自是年少，韶华倾负 
         avatar: https://bu.dusays.com/2023/10/01/6519291503349.jpg 
-        vip: true
-      - name: 呓语梦轩
-        link: https://awaae001.top 
-        avatar: https://awaae001.top/ico.jpg 
-        descr: 用心享受生活@苏苏
-        vip: true
+        vip: true`
       - name: 葱苓sama
         link: https://blog.ciraos.top
         avatar: https://img01.anheyu.com/useruploads/222/2023/10/16/652cbfc482491.jpg
         descr: Dare && Do
         vip: true
         tag: 推荐
+      - name: 海阔蓝
+        link: https://blog.hklan.top/
+        avatar: https://img.hklan.top/cover/%E5%9C%86%E5%A4%B4%E5%83%8F.png
+        descr: 生而热忱❤️,终也欢洽
+        vip: true
 
   
