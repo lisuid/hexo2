@@ -29,7 +29,7 @@ links:
 		    vip: true
 
       - name: 糖丸
-        link: tany.top
+        link: https://tany.top
         avatar: https://pic.tany.top/imgs/Header.jpg
         descr: 及时当勉，岁月不待
         tag: 推荐
@@ -81,7 +81,7 @@ links:
         descr: 分享网络安全与科技生活
         tag: 网络安全
         vip: true
-        vip: true
+        
       - name: 轻笑Chuckle
         link: https://www.qcqx.cn
         avatar: https://www.qcqx.cn/img/head.webp
