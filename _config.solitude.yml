@@ -373,7 +373,7 @@ thirdparty:
       CDN:
 
   aplayer: # 播放器
-    enable: true
+    enable: false
     server: netease # netease, tencent, kugou, xiami, baidu
     id: 1994908354 # 歌单ID
     api: "https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r" #自定义api
